@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>猫诚食品商城--致力于提供绿色、美味、好玩的精选休闲零食,七天无理由退换货</title>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"  />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		
+		<!--这是插件css 第一个轮播图 -->
+		<link rel="stylesheet" type="text/css" href='css/sliderPlay-2.0.css'>
+		<!--这是插件css 倒计时--> 
+		<link rel="stylesheet" type="text/css" href="css/countdown.demo.css"> 
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>		
+		<!--这是插件js 第一个轮播图-->
+		<script src="js/jquery-SliderPlay-2.0.js"></script>
+		<!--这是插件js 倒计时--> 
+		<script src="js/jquery.countdown.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/server.js"></script>
+		<script src="js/cookie1.js"></script>
+		<!--这是插件js  搜索框-->
+		<script type="text/javascript" src="js/jsonp.js"></script>
+		<!--这是插件js 飞入购物车-->
+		<script type="text/javascript" src="js/jquery.fly.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
+		<!--这是插件js 轮播图第二个，第四个-->
+		<script type="text/javascript" src="js/unslider.min.js"></script>
+	</head>
+	<body>
+		<!--
+        	最右边的 start
+       	-->      
+       <div class="cart_right">
+			<ul>
+				<li >
+					<div class="person">我的猫城				
+					</div>
+				</li>
+				<li>
+					<span>购</span><span>物</span><span>车</span><div class="gou count">0</div>
+				</li>
+				<li>
+					<div class="person">我的优惠卷				
+					</div>
+				</li>
+				<li>
+					<div class="person">我的收藏				
+					</div>
+				</li>
+				<li>
+					<div class="person">积分签到				
+					</div>
+				</li>
+				<li>
+					<div class="person">我的消息				
+					</div>
+				</li>
+				<li>
+					<div class="person">在线咨询				
+					</div>
+				</li>
+				<li class="index">
+					<div class="person">猫城首页				
+					</div>
+				</li>
+				<li class="last">
+					<div class="person">返回顶部				
+					</div>
+				</li>
+			</ul>
+		</div>      
+        <!--
+			最右边的over
+        -->
+        
+		<!--	
+			楼梯   start
+		-->
+		<div id="LoutiNav">
+			<ul>
+				<li><span>饼干糕点</span> </li>
+				<li><span>肉类熟食</span> </li>
+				<li><span>海味即食</span> </li>
+				<li><span>糖果布丁</span> </li>
+				<li><span>坚果炒货</span> </li>
+				<li><span>果干蜜饯</span> </li>
+				<li><span>膨化小食</span> </li>
+				<li><span>豆菌笋菇</span> </li>
+				<li><span>冲泡饮品</span> </li>
+				<li class="last"><span>回到顶部</span></li>
+			</ul>
+		</div>
+ 		<!--
+			楼梯 over
+		-->
+		
+	<!-- header start  -->
+		<div class="header">
+			<div class="header_top">
+				<div class="layout">
+					<div class="layout_left">
+						<a href="login.html"><img src="img/top-login.gif" /></a>
+						<a href="register.html"><img src="img/top-zc.gif" /></a>
+					</div>
+					<div class="layout_right">
+						<ul>
+							<li class="nav_one">
+								<a href="#"><i class="iconfont o">&#xe64c;</i> 	
+									 <span class="all">在线客服</span> 
+									 <i class="iconfont tw">&#xe695;</i>	
+									<i class="iconfont th">&#xe501;</i>
+								</a>
+								<div class="kefu">
+										<span class="kefu_time">工作时间</span>
+										<span>周一至周五：9：00~23:30</span>
+										<span>周六至周日：9：00~00:00</span>
+									</div>
+							</li>
+							<li class="nav_two">
+								<a href="#">
+									<i class="iconfont fo">&#xe603;</i>
+									<span class="all">关注我们</span>
+									<i class="iconfont tw" >&#xe695;</i>
+									<i class="iconfont th">&#xe501;</i>
+								</a>
+								<div class="guanzhu">
+									<img src="img/erweima.jpg"><span>订阅号</span>
+									<img src="img/erweima.jpg" class="two"><span class="fu">服务号</span>
+								</div>
+							</li>
+							<li class="nav_three">
+								<a href="#">
+									<i class="iconfont so">&#xe6f9;</i>
+									<span class="all">优惠劵激活</span>
+									<i class="iconfont tw">&#xe695;</i>
+								<i class="iconfont th">&#xe501;</i>
+								</a>
+								<div class="hui">
+									<span>兑换码</span><input type="text" class="dui">
+									<input type="button" value="提交兑换" class=" huan">
+								</div>
+							</li>
+							<li class="nav_four">
+								<a href="#">
+									<i class="iconfont to">&#xe60c;</i>
+									<a href="#"><span class="all">APP下载</span></a>
+									<i class="iconfont tw">&#xe695;</i>
+								</a>
+								<div class="app">
+									<img src="img/erweima2.jpg">
+									<span>扫描下载客户端</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header_center">
+				<div class="layout">
+					<div class="layout_left">
+						<a href="index.html"><img src="img/logo.gif" /></a>
+					</div>
+					<div class="layout_center">
+						<div class="center_top">
+							<form action="" post="get">
+								<input type="text" placeholder=" 超级满减 满99减50" id="sou">
+							</form>
+							<a href="#"><img src="img/top-shousuo.jpg" id="suo"></a>
+							<ul id="ul1"></ul>
+							<p>
+								<span class="one">热门搜索:</span>
+								<span class="two">海欣</span>
+								<span class="three">每日坚果</span>
+								<span class="two">9块9</span>
+							</p>
+						</div>
+						<div class="center_bottom"></div>
+					</div>
+					<div class="layout_right">
+						<img src="img/saoma.jpg" />
+					</div>
+				</div>
+			</div>
+			<div class="header_bottom">				 
+					<ul class="list">						
+						<li>全部商品分类<i class="iconfont">&#xe606;</i></li>						
+					</ul>
+					<ul class="two">
+						<li><a href="#" id="index">首页</a></li>
+						<li><a href="#" class="two">嘀嗒猫</a></li>
+						<li><a href="#" class="two">进口食品</a></li>
+						<li><a href="#" class="three">特产精选</a></li>
+						<li><a href="#" class="three">口味细分</a></li>
+						<li><a href="#" class="three">APP下载</a></li>
+					</ul>					 
+					<div class="shop">						 
+							<img src="img/icon_cart.png">
+							<span>购物车<div class="count">0件</div></span>					 
+					</div>
+			</div>
+		</div>
+	<!--header over-->
+	
+	<!--banner start-->
+	<div class="index_banner">
+		<!--
+        	 二级菜单  start
+       	-->		
+	<div class="two_list">
+		<ul id="list" style="display: block;">	
+		</ul>
+	</div>		
+		<!--
+			二级菜单 over
+        -->
+		
+		<!--
+			轮播图1 start
+		-->
+		<div id="silderPlay">
+			<a href="#"><img src="img/banner.jpg" ></a>
+			<a href="#"><img src="img/banner1.jpg"></a>
+			<a href="#"><img src="img/banner2.jpg"></a>
+		</div>
+		<!--
+			轮播图1 over
+		-->		
+		<div class="banner_bottom" >
+			<!-- 转换为动态获取 -->
+		</div>
+	</div>		
+	<!--banner over-->
+	
+	<!--recommend start-->
+	<div class="middle layout">
+		<h1 class="title">今日推荐 <span>sell</span></h1>
+	</div>
+	<div class="rec layout">	
+		<!--
+        	轮播图2 start
+        -->
+		<div class="rec_left" id="auto1">
+			<ul>
+	        <li><a href="#"><img src="img/191486001480927739.jpg"width="230" height="440" ></a></li>
+	        <li><a href="#"><img src="img/894764001480927714.jpg" width="230" height="440" ></a></li>
+	    	</ul>
+		</div>
+		<!--
+        	轮播图2  over
+      	-->		
+		<div class="rec_right" >		
+		<!--由静态转换为动态获取-->		
+		</div>
+	</div>
+<!--recommend over-->
+
+
+<!--taste start-->
+	<div class="middle layout">
+		<h1 class="title">新鲜品尝 <span>new</span></h1>
+	</div>
+	<div class="taste layout">
+		<a href="#"><img class="ad"src="img/adv.jpg" /></a>
+	</div>
+<!--taste over-->
+
+<!--purchase start-->
+	<div class="middle layout">
+		<h1 class="title">限时抢购 <span>time</span></h1>
+	</div>
+	<div class="purchase layout">
+		<ul class="pur_l">
+			<li>抢购倒计时</li>			
+			<!--
+			 	 倒计时  start
+			-->			
+			<li id="content"><img src="img/icom_time.png" /><h1 class="alt-1">4h 18m 3s</h1></li>			
+			 <!--	
+				 倒计时 over
+			 -->						
+			<li><span>零食必备</span><span>每日有惊喜</span></li>
+		</ul>
+		<div class="pur_r ">		 
+		</div>
+	</div>
+<!--purchase over-->
+
+<!--cat start-->
+	<div class="middle layout">
+		<h1 class="title">嘀嗒猫<span>didamao</span></h1>
+	</div>	
+	<div class="cat layout">
+		<div class="cat_l">	
+		</div>		
+		<!--
+        	第四个轮播图 start
+        -->
+		<div class="cat_r" id="auto2">
+			 <ul>
+		        <li><a href="#"><img src="img/124496001480391599.jpg"  width="230px" height="440px"/></a></li>
+		        <li><a href="#"><img src="img/506511001480321340.jpg" width="230px" height="440px"/></a></li>
+		        <li><a href="#"><img src="img/256541001480328894.jpg" width="230px" height="440px"/></li>
+	    	</ul>	 	
+		</div>
+		<!--
+ 			第四个轮播图 over
+        -->
+	</div>	
+<!--cat over-->
+
+<!--adv start-->
+	<div class="layout adv">
+		<!-- 转换为动态获取      -->
+	</div>
+<!--adv over-->
+
+<!--first floor start	-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>1F</h1>
+		<h2>饼干糕点</h2>
+		<ul>
+			<li><a href="#">Aji</a></li>
+			<li><a href="#">御之味</a></li>
+			<li><a href="#">蜜兰诺松塔</a></li>
+			<li><a href="#">各情焦粮饼干</a></li>
+			<li><a href="#">椰子酥</a></li>
+			<li><a href="#">麻薯</a></li>
+			<li><a href="#">咔咔莎</a></li>
+			<li><a href="#">凤梨酥 </a></li>
+		</ul>
+	</div>
+<!--public -->
+
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/170162001480491219.jpg" />
+			<ul>
+				<li><a href="#">面包</a></li>
+				<li><a href="#">威化</a></li>
+				<li><a href="#">饼干</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/heqing.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/gangrong.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/tipo.jpg" />			 
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/youchen.jpg" />
+			</div>
+		</div>
+		<div class="fir_fl_c" id="onefloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/544879001480317085.jpg" /></dt>
+				<dd class="one">菜家 粒粒装威化饼（榛子味）125g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>果仁香</div>
+					<div>饼干好吃</div>
+					<div>口感不错</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/594086001493191957.jpg" /></dt>
+				<dd class="one">皇族 手打红豆心糯米饼180g/包</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>口味多</div>
+					<div>饼干好吃</div>
+					<div>口感不错</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/420259001480317183.jpg" /></dt>
+				<dd class="one">盼盼 瑞士卷（草莓味）240g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>果仁香</div>
+					<div>饼干好吃</div>
+					<div>口感不错</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+ </div>
+<!--first floor over-->
+	
+<!--Second floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>2F</h1>
+		<h2>肉类熟食</h2>
+		<ul>
+			<li><a href="#">善味阁</a></li>
+			<li><a href="#">久久丫</a></li>
+			<li><a href="#">黄金香肉松</a></li>
+			<li><a href="#">棒棒娃牛肉</a></li>
+			<li><a href="#">老四川</a></li>
+			<li><a href="#">周黑鸭</a></li>
+		</ul>
+	</div>
+<!--public -->
+
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/872046001480491254.jpg" />
+			<ul>
+				<li><a href="#">牛肉类</a></li>
+				<li><a href="#">猪肉类</a></li>
+				<li><a href="#">鸡肉类</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/pinpinrensheng.jpg" />		
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/zhouheiya.jpg" />		
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/shudaoxiang.jpg" />		
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/youyou.jpg" />		
+			</div>
+		</div>
+		<div class="fir_fl_c" id="twofloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/542802001480324150.jpg" /></dt>
+				<dd class="one">四川特产 哈哥兔肉干(麻辣味) 90g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>肉质新鲜</div>
+					<div>好醇香</div>
+					<div>美味十足</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/695256001480324213.jpg" /></dt>
+				<dd class="one">嘀嗒猫 鸭肫（香辣味）168g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/894762001480324277.jpg" /></dt>
+				<dd class="one">嘀嗒猫 五香牛肉干 125g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Second floor over-->
+
+<!--Three floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout ">
+		<h1>3F</h1>
+		<h2>海味即食</h2>
+		<ul>
+			<li><a href="#">小老板海苔卷</a></li>
+			<li><a href="#">老州山</a></li>
+			<li><a href="#">口水娃口水鱼</a></li>
+			<li><a href="#">鱿鱼丝</a></li>
+			<li><a href="#">小黄鱼</a></li>
+			<li><a href="#">海苔</a></li>
+		</ul>
+	</div>
+<!--public -->
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/965478001480491292.jpg" />
+			<ul class="two">
+				<li><a href="#">海苔</a></li>
+				<li><a href="#">海鲜</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/riqing.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/boli.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/runcheng.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/shuanghui.jpg" />				
+			</div>				 
+		</div>
+		<div class="fir_fl_c" id="threefloor">
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/506531001480386374.jpg" /></dt>
+				<dd class="one">海欣 手撕蟹柳（香辣味）320g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.8分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>Q软美味</div>
+					<div>鲜香可口</div>
+					<div>肉线滑</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/579188001480387154.jpg" /></dt>
+				<dd class="one">炎亭渔夫 鱼豆腐（蟹黄味）85g麻辣</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/550600001480387192.jpg" /></dt>
+				<dd class="one">口水娃 口水鱼（酱汁牛肉味）300g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>	
+</div>
+<!--Three floor over-->
+	
+<!--four floor start-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>4F</h1>
+		<h2>糖果布丁</h2>
+		<ul>
+			<li><a href="#">巧克力</a></li>
+			<li><a href="#">德菲丝</a></li>
+			<li><a href="#">费列罗</a></li>
+			<li><a href="#">德芙</a></li>
+			<li><a href="#">不二家</a></li>
+			<li><a href="#">牛奶糖</a></li>
+			<li><a href="#">棒棒粮</a></li>
+		</ul>
+	</div>
+<!--public -->
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/924859001480491335.jpg" />
+			<ul>
+				<li><a href="#">巧克力</a></li>
+				<li><a href="#">奶糖</a></li>
+				<li><a href="#">软糖</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/woogie.jpg" />				
+			</div>	
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/buerjia.jpg" />				
+			</div>	
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/defu.jpg" />				
+			</div>	
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/shilijia.jpg" />				
+			</div>	
+		</div>
+		<div class="fir_fl_c" id="fourfloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/300085001480401339.jpg"/></dt>
+				<dd class="one">KRACIE 玫瑰香味糖果32g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>迷人香味</div>
+					<div>甜蜜滋味</div>
+					<div>随身装</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/244977001480401596.jpg"/></dt>
+				<dd class="one">宏源 陈皮糖888g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/899491001480401206.jpg"/></dt>
+				<dd class="one">RIO 皓洁冰爽薄荷糖</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.7分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Four floor over-->
+
+<!--Five floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>5F</h1>
+		<h2>坚果炒货</h2>
+		<ul>
+			<li><a href="#">嘀嗒猫坚果</a></li>
+			<li><a href="#">黄飞红</a></li>
+			<li><a href="#">口水娃</a></li>
+			<li><a href="#">大哥花生豆</a></li>
+			<li><a href="#">蒜香青豆</a></li>
+		</ul>
+	</div>
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/717442001480491450.jpg" />
+			<ul>
+				<li><a href="#">豆类</a></li>
+				<li><a href="#">开心果</a></li>
+				<li><a href="#">花生</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/huangfeihong.jpg" />				
+			</div>	
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/liyuan.jpg" />				
+			</div>	
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/tianwo.jpg" />				
+			</div>	
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/qiaqia.jpg" />				
+			</div>	
+		</div>
+		<div class="fir_fl_c" id="fivefloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/604992001480406492.jpg"/></dt>
+				<dd class="one">洽洽 香瓜子260g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>颗粒饱满</div>
+					<div>休闲装</div>
+					<div>分量十足</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/592950001480406238.jpg"/></dt>
+				<dd class="one">拉友 桂西北甜栗 100g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/969033001480406333.jpg"/></dt>
+				<dd class="one">老城隍庙 香脆特松豆250g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Five floor over-->
+
+<!--Six floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>6F</h1>
+		<h2>果干蜜饯</h2>
+		<ul>
+			<li><a href="#">宿务芒果干</a></li>
+			<li><a href="#">美国葡萄干</a></li>
+			<li><a href="#">榴的华榴莲干</a></li>
+			<li><a href="#">南国椰子片</a></li>
+			<li><a href="#">梅饴馆老梅干</a></li>
+		</ul>
+	</div>
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/666550001480491508.jpg" />
+			<ul>
+				<li><a href="#">蜜饯</a></li>
+				<li><a href="#">话梅/莓类</a></li>
+				<li><a href="#">果干类</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/oceanspray.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/tianwo.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/didamao.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/koushuiwa.jpg" />				
+			</div>
+		</div>
+		<div class="fir_fl_c" id="sixfloor">
+			
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/155734001480412567.jpg"/></dt>
+				<dd class="one">宿雾 芒果干100g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>果肉厚实</div>
+					<div>健康卫生</div>
+					<div>口感好</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/731397001480412611.jpg"/></dt>
+				<dd class="one">泰芮诗 无花果200g/袋 土耳其进口</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/834329001480411887.jpg"/></dt>
+				<dd class="one">德诚 菠萝蜜干果100g/果</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Six floor over-->
+
+
+<!--Seven floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>7F</h1>
+		<h2>膨化小食</h2>
+		<ul>
+			<li><a href="#">张君雅</a></li>
+			<li><a href="#">出前一丁</a></li>
+			<li><a href="#">养养冬阴功面</a></li>
+			<li><a href="#">乐事薯片</a></li>
+			<li><a href="#">爆米花</a></li>
+		</ul>
+	</div>
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/143134001480491619.jpg" />
+			<ul>
+				<li><a href="#">薯片类</a></li>
+				<li><a href="#">爆米花</a></li>
+				<li><a href="#">速食面</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/haoliyou.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/koushuiwa.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/zhangjunya.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/leshi.jpg" />				
+			</div>
+		</div>
+		<div class="fir_fl_c" id="sevenfloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/275740001480487697.jpg"/></dt>
+				<dd class="one">盼盼 墨西哥鸡味卷 105g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.8分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>香脆可口</div>
+					<div>健康卫生</div>
+					<div>口感好</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/443294001493187591.jpg"/></dt>
+				<dd class="one">张君雅 草莓甜甜圈40g/袋 台湾进口</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/776193001480487967.jpg"/></dt>
+				<dd class="one">北田 糙米卷 160g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Seven floor over-->
+
+
+
+<!--Eight floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>8F</h1>
+		<h2>豆菌笋菇</h2>
+		<ul>
+			<li><a href="#">金大洲金针菇</a></li>
+			<li><a href="#">久久丫豆干</a></li>
+			<li><a href="#">沈师傅鸡蛋干</a></li>
+			<li><a href="#">鱼豆腐</a></li>
+			<li><a href="#">苏伯蛋花汤</a></li>
+		</ul>
+	</div>
+<!--public -->
+	
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/965478001480491292.jpg" />
+			<ul class="two">
+				<li><a href="#">豆制品</a></li>
+				<li><a href="#">菇笋类</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/weilong.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/youyou.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/shenshifu.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/zhouheiya.jpg" />				
+			</div>
+		</div>
+		<div class="fir_fl_c" id="eightfloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/053829001480494890.jpg" /></dt>
+				<dd class="one">周黑鸭 彩包卤香干（网购）150g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>口感醇香</div>
+					<div>开袋即食</div>
+					<div>口感好</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/227195001480494941.jpg" /></dt>
+				<dd class="one">卫龙 大面筋（麻辣味）68g/袋</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.9分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/292545001480494821.jpg" /></dt>
+				<dd class="one">润成 鸡蛋干酱香味100g/袋</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Eight floor over-->
+
+<!--Nine floor start-->
+<!--public-->
+<div class="Louti">
+	<div class="floor layout">
+		<h1>9F</h1>
+		<h2>冲泡饮品</h2>
+		<ul>
+			<li><a href="#">宾格瑞香蕉牛奶</a></li>
+			<li><a href="#">古方红糖</a></li>
+			<li><a href="#">G7咖啡</a></li>
+			<li><a href="#">恒寿堂</a></li>
+		</ul>
+	</div>
+	<div class="first_floor layout">
+		<div class="fir_fl_l">
+			<img class="big touming"  src="img/955728001480491677.jpg" />
+			<ul>
+				<li><a href="#">饮料</a></li>
+				<li><a href="#">冲调饮品</a></li>
+				<li><a href="#">果茶</a></li>
+			</ul>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/bingerui.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/ruishixiaojie.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/nongxie.jpg" />				
+			</div>
+			<div class="box">
+				<span class="zhe"></span>
+				<img src="img/haoshi.jpg" />				
+			</div>
+		</div>
+		<div class="fir_fl_c" id="ninefloor">
+			<!--由静态转换为动态获取 -->
+		</div>
+		<div class="fir_fl_r">
+			<div class="eva">吃货评价</div>
+			<dl class="dl_two">
+				<dt><img src="img/033861001480499994.jpg"/></dt>
+				<dd class="one">好时 可可粉226g/盒</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>醇香可口</div>
+					<div>多种吃法</div>
+					<div>分量足</div>
+				</dd>
+			</dl>
+			<dl class="dl_three dl_two">
+				<dt><img src="img/066379001493178116.jpg"/></dt>
+				<dd class="one">得乐思 全脂牛奶200ml*24盒</dd>
+				<dd class="two"><img src="img/star_4.5.gif"/><span>4.6分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>麻辣有味</div>
+					<div>分量足</div>
+					<div>值得推荐</div>
+				</dd>
+			</dl>
+			<dl class="dl_four dl_two">
+				<dt><img src="img/475674001480500115.jpg"/></dt>
+				<dd class="one">英国进口 多赛特谷 水果风味麦片</dd>
+				<dd class="two"><img src="img/star_5.gif"/><span>5分</span></dd>
+				<dd class="three"><h2>商品评价标签：</h2></dd>
+				<dd>
+					<div>五香品味</div>
+					<div>口感好</div>
+					<div>回味悠长</div>
+				</dd>
+			</dl>
+		</div> 
+	</div>
+</div>
+<!--Nine floor over-->
+ 
+<!--empty space start-->
+	<div class="empty"></div>
+<!--empty space over-->	
+
+	<!--footer start-->
+	<div class="footer_top footer_public">
+			<ul>
+				<li class="first"><a href="#">关于我们</a></li>
+				<li><a href="#">猫诚食品介绍</a></li>
+				<li><a href="#">猫诚食品微博</a></li>
+				<li><a href="#">商务合作</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">新手指南</a></li>
+				<li><a href="#">会员介绍</a></li>
+				<li><a href="#">优惠劵使用</a></li>
+				<li><a href="#">评价商品</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">支付方式</a></li>
+				<li><a href="#">支付宝余额支付</a></li>
+				<li><a href="#">微信钱包支付</a></li>
+				<li><a href="#">网银在线支付</a></li>
+				<li><a href="#">联华OK卡支付</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">配送方式</a></li>
+				<li><a href="#">安全配送</a></li>
+				<li><a href="#">配送时间及费用</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">售后服务</a></li>
+				<li><a href="#">退换货流程</a></li>
+				<li><a href="#">退换货注意事项</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">帮助中心</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">物流查询</a></li>
+			</ul>
+		</div>
+		<div class="footer_center footer_public">
+			<dl>
+				<dt></dt>
+				<dd>
+					<span class="front">全国5+1</span>
+					<span class="after">满80包邮</span>			
+				</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>
+					<span class="front">最高4倍积分</span>
+					<span class="after">下单抵货款</span>			
+				</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>
+					<span class="front">品质保障</span>
+					<span class="after">7天无理由退换货</span>			
+				</dd>
+			</dl>
+		</div>
+		<div class="footer_bottom">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">加入猫诚食品</a></li>
+				<li><a href="#">手机猫诚食品</a></li>
+			</ul>
+			<h6>Copyright&nbsp;@&nbsp;2009-2017&nbsp;morefood.com,All Rights Reserved上海猫诚电子商务股份有限公司&nbsp;版权所有&nbsp;沪ICP备09068257-7</h6>
+			<h6 class="last">食品流通许可证编号:JY1310&nbsp;1130035157&nbsp;酒类许可证:1406030114003051</h6>
+			<div>
+				<img src="img/biaoshi1125.gif"/>
+				<img src="img/logo123x40.jpg" />
+				<img src="img/icon.gif" />
+				<img src="img/picp_bg.png" />
+			</div>
+		</div>
+	<!--footer over-->
+	</body>
+</html>

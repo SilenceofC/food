@@ -1,0 +1,673 @@
+html, body, div,ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,i
+ ,span{
+	margin:0; 
+	padding:0; 
+}
+img{
+	display: block;
+	border: none;
+}
+ul,ol {
+ list-style:none; 
+} 
+
+html,body{
+	height:100%;
+}
+body {
+ color:#333; 
+  font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; 
+  background:#fff;
+ 
+}
+a {
+	color:#666; 
+	text-decoration:none; 
+}
+	/*
+	 * 右侧悬浮栏 start
+	 */
+	.cart_right{
+		width:35px;
+		height:100%;
+		position: fixed; 
+		top:0;
+		right:0;
+		background:#333;
+		z-index:11;
+		opacity: 0.9;		
+	}
+
+ 
+		.cart_right li{
+			width:35px;
+			height: 35px;
+			background:url(../img/icon_rightnav.png) no-repeat;	
+			background-position: 7px 0;
+			position:relative;
+		}
+		.cart_right li:first-child{
+			margin-top:95px;			
+		}
+		.cart_right li:nth-child(2){
+			 background-position:7px -43px;
+			 		 
+		}
+			.cart_right li:nth-child(2) span{				 
+					display:block;
+					width:35px;
+					position:relative;
+					color:#fff;	
+					top:40px;
+					left:14px;			
+			}
+			.cart_right li:nth-child(2) div.gou{
+				width:25px;
+				height: 20px;
+				border-radius: 5px;
+				color:#fff;
+				background:#ff3333;
+				position:relative;
+				top:50px;
+				text-align: center;
+				line-height: 20px;
+				left:6px;
+			}
+		
+		.cart_right li:nth-child(3){
+			 background-position:7px -86px;
+			 margin-top:90px;
+		}
+		.cart_right li:nth-child(4){
+			background-position:7px -147px;
+			margin-top:5px;
+		}
+		.cart_right li:nth-child(5){
+			margin-top:15px;
+			background-position:7px -207px;
+		}
+		.cart_right li:nth-child(6){
+			margin-top:15px;
+			margin-top:170px;
+			background-position:7px -255px;
+		}
+		.cart_right li:nth-child(7){
+			background-position:7px -313px;
+			margin-top:15px;
+		}
+		.cart_right li:nth-child(8){
+			background-position:7px -365px;
+				
+		}
+		.cart_right li:nth-child(9){
+				margin-top:15px;
+			background-position:7px -424px;
+		}
+	.person{
+		width:75px;
+		height: 37px;
+		color:#fff;
+		background:#333;
+		position:absolute;
+		right:35px;
+		text-align: center;
+		line-height: 37px;
+		display: none;
+	}
+	
+	/*
+	 * 右侧悬浮栏 over
+	 */
+/*header_top start*/
+.header{
+	height:164px;
+	border-bottom:2px solid #68bb00;
+}
+	.header_top {
+		height:38px;
+		width:100%;
+		background:#fafafa;
+		 
+		border-bottom: 1px solid #dddddd;
+		position: relative;
+	}
+		.layout{
+			width:1135px;
+			margin:0 auto;
+			height: 38px;
+			position: relative;
+		}
+			.header_top .layout_left {
+				float: left;
+				 
+				width:715px;
+				height: 38px;
+			}
+				.header_top .layout_left img{
+					float: left;
+					margin: 6px 7px 6px 0;
+
+				}
+			/*
+			 * 导航条  start
+			 */
+			.header_top .layout_right{
+				float: left;
+				height: 38px;
+				width:420px;
+				position:relative;
+				
+			}
+				.layout_right li {
+					float: left;
+					font-size:12px;
+					color:#666;
+					line-height: 36px;
+					position:relative; 
+					background:#fafafa;
+					z-index:99;
+					height: 36px;
+				}
+					.o,.fo,.to,.so,.all,.tw,.th{
+						display: block;
+						float: left;
+					}
+					.tw,.th{
+						color:#cccccc;
+						padding-top:3px;
+						font-size:16px;
+					}
+					.o{
+						 margin-top:3px;					 
+						color:#ff5500;
+						font-size:26px;					 
+					}
+					.tw{
+						padding-left:3px;
+						font-size: 12px;
+					}
+					
+				.layout_right li:first-child{
+					width:105px;
+					
+				}	
+				
+					.kefu,.guanzhu,.hui,.app{
+						position: absolute;
+						top:0px;
+						background:#fff;
+						z-index: -1;
+						display: none;
+						border:1px solid #ccc;
+					}
+						.kefu span{
+							text-align: center;
+							font-size:12px;
+							line-height: 12px;
+							margin-bottom:15px;
+						}
+						.kefu .kefu_time{						 
+							margin-top:45px;					 
+						}
+				.layout_right .nav_two{
+					width:105px;
+				}
+						.layout_right .guanzhu img{
+							top:40px;
+							float:left;
+							left:10px;
+							position:absolute;							
+						}
+						.layout_right .guanzhu .two{
+							position:absolute;
+							top:40px;
+							left:110px;
+						}						
+						.layout_right .guanzhu span{
+							position: absolute;
+							top:130px;
+							left:40px;
+						}
+						.layout_right .guanzhu .fu{
+							left:135px;
+						}
+					.fo{
+						margin-top:3px;					 
+						color:#21bb2a;
+						font-size:22px;	
+						padding-right:3px;
+					}
+				.layout_right .nav_three{
+					width:114px; 
+				}
+					.nav_three .hui span{					
+						position:absolute;
+						top:42px;
+						margin-left: 10px;
+					}
+					.nav_three .hui .dui{
+						width:100px;
+						height: 23px;
+						border: 1px solid #d0d0d0 ;
+						 top:47px;
+						 left:50px;
+						 float: left;
+						 border-radius:4px;
+						position:absolute;
+						
+					}
+					.nav_three .hui .huan{
+						width:145px;
+						height: 30px;
+						float: left;
+						position:absolute;
+						border:none;
+						border-radius: 5px;
+						top:80px;
+						color:#fff;
+						margin-left: 10px;;
+						background:#afafaf;
+					}
+					.nav_four .app img{
+						position:absolute;
+						top:45px;
+						left:10px;	
+					}
+					.nav_four .app span{
+						top:135px;
+						left:10px;
+						position:absolute;
+					}
+				
+					.so{
+						 margin-top:3px;					 
+						color:#ff5500;
+						font-size:20px;	
+						padding-right: 3px;				 
+					}
+				.layout_right .nav_four{
+					width:96px;
+				}
+					.to{				 
+						color:#ea8112;
+						font-size:20px;	
+						padding-right: 5px;				 
+					}
+			/*
+			 * 导航条  over
+			 */
+/*header_top over*/
+
+/*header_center start*/
+.header_center{
+	height: 90px;
+}
+	.header_center .layout_left{
+		float: left;
+		padding-top:14px;
+	}
+	.header_center .layout_right{
+		float:right;
+		padding-top:14px;
+	}
+	.center_top{
+		position:relative;
+		float: left;
+	}
+		.center_top form,img{
+			float: left;
+		}
+		.center_top form{
+			padding-left: 120px;
+			padding-top:20px;
+		}
+		.center_top input{
+			height: 32px;	
+			border:2px solid #21bb2a;
+			border-right:none;
+			border-bottom:1px solid #21bb2a;
+			width:358px;
+			padding-left: 10px;
+		}
+		.center_top img{
+			padding-top:22px;
+		}
+		#ul1{
+			position: absolute;
+			top:55px;
+			left:122px;
+			border:1px solid #7dc523;
+			width:348px;
+			z-index:99;
+		    background:#fff;
+		}
+			 #ul1 li{
+				border-bottom: 1px dashed #ccc;	
+				height: 25px;
+				margin:0 8px;
+				line-height: 25px;
+				color:#838087;
+				font-size:12px;
+				
+			}
+		.center_top p{
+			float: left;
+			position: absolute;
+			top:65px;
+			left:120px;
+		}
+		.center_top span{
+			float: left;
+		}
+		.center_top span.one{
+			color:#6fbe2c;
+			font-weight: bolder;
+			padding-right: 10px;
+		}
+		.center_top span.two{
+			color:#ff0000;
+		}
+		.center_top span.three{
+			color:#a59999;
+			padding-right: 6px;
+			padding-left: 8px;
+			
+		}
+/*header_center over*/
+
+/*header_bottom start*/
+.header_bottom{
+	height: 50px;
+	position:relative;	
+}
+.header_bottom .list{
+	position: absolute;
+	width:175px;
+	z-index:99;
+	left:145px;
+	overflow: hidden;
+}
+	.header_bottom .list li:first-child{
+		width:155px;
+		height: 38px;
+		background:#68bb00;
+		font-size:16px;
+		color:white;
+		line-height: 38px;
+		font-weight: bold;
+		padding-left:10px;
+
+	}
+		 
+		.header_bottom .list li:first-child i{
+			padding-left:28px;
+			font-size:14px;
+			color:#fffeff;
+		}
+	.header_bottom ul.two{
+		margin-left: 190px;
+		height: 38px;
+		left:145px;
+		overflow: hidden;
+		position:relative;	
+		width:700px;	
+		
+	}
+			.header_bottom ul.two li{
+				float:left;	
+				
+			}	
+				.header_bottom ul.two li a{
+					display: block;
+					font-weight: bold;
+					font-size: 18px;
+					color:#4b4b4b;
+					text-align: center;
+					line-height: 38px;
+					height: 38px;
+				}
+				.header_bottom ul.two li a:hover{
+					color:#5da700;
+				}
+				.header_bottom ul.two li:first-child a{
+					width:80px;
+					height: 32px;
+				}
+				.header_bottom ul.two li a.two{			 
+					width:96px;					 
+				}
+				.header_bottom ul.two li a.three{			 
+					width:92px;					 
+				}
+		.header_bottom .shop {
+		 	background:#fff;
+			position:absolute;
+			line-height: 35px;
+			height: 35px;
+			width:190px;
+			right:140px;
+			top:-4px; 
+		}
+		.shop .count{
+			position:relative;
+			top:-35px;
+			left:120px;
+		}
+			.header_bottom .shop img {
+				padding-top:4px;
+				float: left;
+				padding-right: 10px;
+				padding-left:15px;
+			}
+			.header_bottom .shop span {
+				 font-size:18px;
+				 color:red;	 
+				 font-weight: bold;
+			}
+/*header_bottom over*/
+/*二级菜单 start*/
+二级菜单 start
+	.two_list{
+		position:relative;
+		background:red;
+	}
+	 #list{		
+		position:absolute;
+		background-color: #32312f;
+		height: 520px;
+		width: 165px;	
+		left:145px;
+		opacity: 0.9;
+		z-index:999;
+		 
+	}
+		 #list li{
+			width:165px;
+			height: 47px;
+			background-image:url(../img/icon_nav1.png) ;
+			overflow: hidden;
+		}		
+			 #list li:hover{
+				z-index:-1;
+				width:165px;
+				height: 48px;
+				background-color:#000000;
+				opacity: 0.9;
+				background-image:url(../img/icon_nav1.png);
+			}
+		 	#list li:nth-child(2){
+				background-position:0 -48px;
+			}	
+			 #list li:nth-child(2):hover{
+				background-position-y: -48px;
+			}
+			 #list li:nth-child(3){
+				background-position:0 -94px;
+			}
+			#list li:nth-child(3):hover{
+				background-position-y: -94px;
+			}
+			 #list li:nth-child(4){
+				background-position:0 -138px;
+			}
+			 #list li:nth-child(4):hover{
+				background-position-y: -138px;
+			}
+			 #list li:nth-child(5){
+				background-position:0 -190px;
+			}
+			#list li:nth-child(5):hover{
+				background-position-y: -190px;
+			}
+			 #list li:nth-child(6){
+				background-position:0 -230px;
+			}
+			 #list li:nth-child(6):hover{
+				background-position-y: -230px;
+			}
+			 #list li:nth-child(7) {
+				background-position:0 -273px;
+			}
+			 #list li:nth-child(7):hover{
+				background-position-y: -273px;
+			}
+			 #list li:nth-child(8){
+				background-position:0 -320px;
+			}
+			 #list li:nth-child(8):hover{
+				background-position-y: -320px;
+			}
+			 #list li:nth-child(9){
+				background-position:0 -368px;
+			}
+			 #list li:nth-child(9):hover{
+				background-position-y: -368px;
+			}
+			 #list li:nth-child(10){
+				background-position:0 -416px;
+			}
+			 #list li:nth-child(10):hover{
+				background-position-y: -416px;
+			}
+			 #list li:nth-child(11){
+				background-position:0 -460px;
+			}
+			 #list li:nth-child(11):hover{
+				background-position-y: -460px;
+			}
+			#list li a{			
+				display: block;
+				float: left;
+				color:#fff;
+				font-size:15px;
+				padding-left:50px;
+				height: 47px;
+				line-height: 47px;				
+			}
+			 #list li a:nth-child(6){
+				height: 47px;
+				line-height: 40px;
+			}
+			 #list li h1{
+				font-size:10px;
+				padding-top:16px;
+				float:right;
+				color:#fff;
+				left:300px;
+				padding-right:12px;
+			}
+				#list a:hover{
+					text-decoration: underline;				
+				}
+ 
+	#list .t_list {		
+		position: absolute;
+		left:165px;	
+		width:192px;
+		background:#fff;
+		border:1px solid black;
+		
+	}
+	/*给dl中的任一个元素加红色的字*/
+		#list li:first-child dt:last-child a{
+			color:red;
+			margin-bottom: 15px;
+		}
+		#list .t_list .c_one a{
+			color:#151515;
+			margin:0;
+			margin-left:15px;
+			padding:0;
+			height: 25px;
+		}
+		#list .t_list .c_one dt{
+			color:red;
+			margin:0;
+			padding:0;
+			
+		}
+		#list .t_list dt{
+			float:left;
+			margin:0;
+			padding:0;
+		}
+
+		#list .t_list .c_one a:hover{
+			font-weight: bold;
+			color:red;
+		}
+		#list li:nth-child(2) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(3) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(4) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(5) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(6) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(7) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(8) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(9) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(10) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list li:nth-child(11) dt:last-child a{
+			color:red;
+			margin-bottom: 25px;
+		}
+		#list  .t_list {
+		display: none;
+		}
+		#list{
+			display: none;
+		}
+
+
+
+			
+			
+ 		
+/*
+ * 二级菜单 over
+*/

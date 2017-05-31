@@ -1,0 +1,219 @@
+.big_detail{
+	width:1100px;
+	margin:0 auto;
+}
+	.big_detail .ti{
+		height: 50px;
+	}
+		.big_detail .ti span{
+			float:left;
+			height: 50px;
+			line-height: 50px;
+		}
+		.d_r{
+			float: left;
+		}
+		.d_r .food{
+			width:160px;
+			border:3px solid #e1e1e1;
+		}
+			.d_r .food>span{
+				width:155px;
+				height:25px ;
+				background:#7bc523;
+				line-height: 25px;
+				color:#fff;
+				font-weight: bold;
+				padding-left:5px;
+			}
+			.d_r .food li{
+				width:155px;
+				height: 25px;
+				line-height: 25px;
+				padding-left:10px;
+				border-bottom: 1px dashed #e1e1e1;
+			}
+			.d_r .food .serach{
+				height: 80px;
+				border-top:2px solid #E1E1E1;
+			}
+				.serach h2{
+					font-size: 14px;
+					color:#7bc523;
+					margin:10px 0 5px 15px;
+				}
+				.serach span{
+					margin-left:10px;
+					margin-right: 10px;
+				}
+			.d_r .see{
+				width:165px;
+				border:1px solid #80d7dd;
+				/*overflow: hidden;*/
+				height: 300px;
+				margin-top:6px;
+			}
+				.d_r .see .jin{
+					width:165px;
+					height: 33px;
+					background:#4ac7cf;
+				}
+					.d_r .see .jin h2{
+						color:white;
+						font-size: 14px;
+						line-height: 33px;
+						text-align: center;
+						height: 33px;
+						width:165px;
+						bottom:320px;
+						font-weight: bold;
+					}
+		.big_detail .d_l{
+			float:left;
+			width:920px;
+			margin-left:5px;
+		}
+			.zhan{
+				height: 505px;
+				position:relative;
+			}
+				.zhan .zhan_l{
+					width:402px;
+					height: 505px;
+					overflow: hidden;
+					float:left;
+					margin-right: 10px;
+					border:1px solid #ddd;
+				}
+					.zhan .zhan_l .top{
+						width:400px;
+						height: 400px;
+						overflow: hidden;
+					}
+					.top .b_2,.top .b_3,.top .b_4{
+						display: none;
+					}
+					.zhan .zhan_l .niu{
+						height: 97px;
+					}
+					.niu img{
+						float: left;
+						width:95px;
+						height: 95px;
+						border:1px solid #ddd;
+						margin-left: 3px;
+					}
+
+				.zhan .zhan_r{
+					width:375px;
+					height: 505px;
+					float: left;
+				}
+					.zhan .zhan_r h1{
+						width:360px;
+						height: 30px;
+						font-size: 14px;
+						line-height: 30px;
+						border-bottom: 1px solid #e1e1e1;
+						padding-left: 5px;
+					}
+					.zhan .zhan_r li{
+						margin-bottom:15px;
+						padding-left: 5px;
+					}
+					.zhan .zhan_r .one{
+						color:red;
+						padding-left: 5px;
+						margin-top:10px;
+						margin-bottom: 20px;
+					}
+					/*.zhan .zhan_r .two{
+						margin-bottom: 15px;
+					}*/
+					/*.zhan .zhan_r .three{
+						margin-bottom: 12px;
+					}*/
+					.zhan_r	.three span{
+						color:red;
+						font-weight: bold;
+						display: inline-block;
+					}
+					.zhan_r	.four a{
+						color:#7bc523;
+					}
+					.zhan_r .five span{
+						display: inline-block;
+					}
+					.zhan_r .six{
+						width:370px;
+						height: 30px;
+						line-height: 30px;
+						background:#f7f7f7;
+						font-weight: bold;
+					}
+					.zhan_r .seven{
+						color:#cc0000;
+					}
+					.zhan_r .eight span{
+						display: inline-block;
+						height: 20px;
+						text-align: center;
+						line-height: 20px;
+						border: 1px solid #e1e1e1;
+						margin-right: 5px;
+					}
+					.zhan_r .eight span:first-child{
+						width:15px;
+					}
+					.zhan_r .eight span:nth-child(2){
+						width:40px;
+					}
+					.zhan_r .eight .ss{
+					
+					}
+					.zhan_r .eight span:last-child{
+						width:17px;
+					}
+					.zhan input{
+						float:left;
+						height: 40px;
+						text-align: center;
+						line-height: 40px;
+						border-radius:5px;
+					}
+					.zhan .purc{
+						width:160px;						
+						color:#fff;
+						background:#ff4400;						
+						border:0;
+						margin-left: 5px;
+					}
+					.zhan .liji{
+						width:135px;
+						border:1px solid #f0cab6;
+						background:#ffe4d0;
+						color:#e5511d;
+						margin-left:17px;
+					}
+						
+					
+			.zu{
+				height: 315px;
+				background:#f7f7f7;
+				margin-top:10px;
+				margin-bottom: 20px;
+				padding-left: 10px;
+				font-size: 30px;
+				padding-top:10px;
+			}
+			.tishi{
+				height: 150px;
+				margin-bottom:80px;
+				background:#fff3d9;
+				border:1px dashed #ff5309;
+				color:#ff2d00;
+				padding-left: 10px;
+				font-size: 30px;
+				padding-top:10px;
+			}
+

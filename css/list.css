@@ -1,0 +1,235 @@
+.big_box{
+	width:1060px;
+	margin:0 auto;
+	overflow: hidden;
+	height: 900px;
+}
+	.big_box .tit{
+		height: 50px;
+	}
+		.big_box .tit span{
+			float:left;
+			height: 50px;
+			line-height: 50px;
+		}
+	.box_left{
+		width:170px;
+		float:left;
+	}
+		.box_left .left_top{
+			width:165px;
+			height: 445px;
+			background:#f7f7f7;
+			position:relative;
+		}
+			.box_left .left_top span{
+				width:70px;
+				height:70px;
+				background:#68bb00;
+				float:left;
+				margin:5px;
+			}
+				.box_left .left_top span a{
+					display: block;
+					height: 70px;
+					line-height: 70px;
+					text-align: center;
+					color:#fff;
+					font-size: 12px;
+				}
+			.box_left .left_top .hot{
+				width:145px;
+				height: 40px;
+				position:absolute;
+				left:5px;
+				bottom:5px;
+				line-height: 40px;
+				padding-left: 10px;
+				color:#7bc523;
+				background:#fff;
+				font-weight: bold;
+			}
+			.left_top .see{
+				width:165px;
+				border:1px solid #80d7dd;
+				/*overflow: hidden;*/
+				height: 300px;
+				margin-top:6px;
+				position:relative;
+				top:450px;
+			}
+				.left_top .see .jin{
+					width:165px;
+					height: 33px;
+					background:#4ac7cf;
+					position:relative;
+				}
+					.left_top .see .jin h2{
+						color:white;
+						font-size: 14px;
+						line-height: 33px;
+						text-align: center;
+						height: 33px;
+						width:165px;
+						position:relative;
+						bottom:320px;
+						right:40px;
+						font-weight: bold;
+					}
+	.box_right{
+		width:880px;
+		float:right;
+		margin-top:10px;
+	}
+		.box_right .b_t{
+			width:880px;
+			height:150px;
+			background:#f1f1f1;
+			padding-top:10px;
+			position: relative;
+		}
+			.box_right .b_t .move{
+				width:633px;
+				height: 130px;
+				overflow: hidden;
+				margin:0 auto;
+			}
+				.b_t .r,.l{
+					position:absolute;
+					width:15px;
+					height: 35px;
+					top:70px;
+				}
+				.b_t .r{
+					left:80px;
+				}
+				.b_t .l{
+					right:90px;
+				}
+				
+				.move .a{
+					width:305px;
+					height: 130px;
+					background:#fff;
+					float:left;
+					margin-right: 16px;
+				}
+					.a img{
+						padding-top:12px;
+						margin-right: 15px;
+					}
+					.a span{
+						margin-left:10px;
+						margin-top:10px;
+					}
+					.a .qian{
+						color:red;
+						font-size:18px;
+					}
+					.a .liji{
+						margin-top:20px;
+						width:100px;
+						height: 25px;
+						background:#68bb00;
+						color:#fff;
+					}
+
+		.box_right .b_c{
+			width:878px;
+			height: 116px;
+			border:1px solid #e1e1e1;
+			position:relative;
+		}
+			.box_right .b_c .xuan{
+				width:880px;
+				height: 28px;
+				border-bottom: 1px dashed #e1e1e1;
+				line-height: 28px;
+				padding-left:20px;
+			}
+				.box_right .b_c .xuan span{
+					position:relative;
+					display: inline-block;
+					margin:0 10px;
+				}
+			.box_right .b_ti{
+				width:880px;
+				height: 40px;
+				background:#f9f9f9;
+				margin-top:10px;
+			}
+				.box_right .b_ti li{
+					float: left;
+					width:60px;
+				}
+				.box_right .b_ti li:first-child{
+					margin-left: 10px;
+				}
+					.box_right .b_ti li:first-child a{
+						color:#68bb00;
+					}
+				.box_right .b_ti li a{
+					height: 40px;
+					line-height: 40px;
+					text-align: center;
+					border-right: 1px solid #ddd;
+					width:60px;
+					display: block;
+				}
+					.b_b .milk{
+						width:187px;
+						height: 310px;
+						margin-left: 5px;
+						float: left;
+						margin-top:5px;
+					}
+						.milk dd{
+							font-size:14px;
+							padding-left:5px;
+						}
+						.milk dt img{
+							padding-left:4px;
+						}
+						.milk .m1{
+							color:#ff5500;
+							font-size: 16px;
+							margin-left:15px;
+							font-weight: bold;
+							margin-bottom: 5px;
+						}
+						.milk .m3{
+							color:#ff5500;
+							margin:5px 0;
+						}
+						.milk .m4{
+							background:url(../img/icon_goods.png) no-repeat;
+							background-position: 0 -27px;
+							margin-left: 5px;
+						}
+							.milk .m4 a{
+								display: block;
+								margin-left:20px ;
+							}
+							.milk .m5{
+								float:left;
+								margin-right: 10px;
+								border:1px solid #eeeeee ;
+								background:url(../img/icon_goods.png) no-repeat;
+								margin-left: 5px;
+								background-position: 0 -88px;
+							}
+								.milk .m5 a{
+									margin-left: 20px;
+									width:63px;
+									height: 27px;
+								}
+							.milk .m6{
+								float: left;
+								border:1px solid #eeeeee;
+								background:url(../img/icon_goods.png) no-repeat;
+								background-position: 0 -118px;
+							}
+								.milk .m6 a{
+									margin-left: 20px;
+								}
+

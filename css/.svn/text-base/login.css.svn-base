@@ -1,0 +1,210 @@
+/*public*/
+body,div,form,input,span{
+	margin:0;
+	padding:0;
+}
+form,input{
+	border: none;
+}
+.log_public{
+	width:1132px;
+	margin:auto;
+}
+/*reg_header start*/
+.log_header{
+	height: 60px;
+	margin-top:35px;
+	overflow: hidden;
+}	
+	.log_header img,.log_header h1,.log_header span{
+		float: left;
+	}
+	.log_header h1{
+		 padding:0px 15px 0px 22px;
+		 font-size:22px;
+		 
+	}
+	.log_header h1,.log_header span{
+		color:#666666;
+	}
+	.log_header span,.log_header a{
+		padding-top:24px;
+		font-size: 16px;
+		padding-right:5px;
+	}
+	.log_header a{
+		font-weight: bold;
+		color:#68bb00;
+		display: block;
+	}
+	.log_header a:hover{
+		color:#5ba800;
+	}
+/*reg_header over*/
+
+/*background start*/
+.bac{
+	height: 500px;
+	overflow: hidden;
+	background-image: url(../img/loginbg0223.jpg);
+	margin-top:15px;
+}
+	.bac .box{
+		height: 370px;
+		width:360px;
+		border-radius: 5px;
+		border:2px solid #eaeaea;
+		box-shadow: 5px #f2f2f2;
+		float:right;
+		margin-top:66px;
+		margin-right: 125px;
+	}
+		.bac .box .log_title{
+			width:300px;
+			height: 60px;
+			margin-left:32px;
+		}
+			.bac .box .log_title .log_tle1{
+				float:left;
+				width:100px;
+				height: 50px;
+				line-height: 50px;
+				margin-top:5px;
+				font-size:18px;
+			}
+			.bac .box .log_title .log_tle2 a{
+				float:right;
+				width:80px;
+				height: 50px;
+				line-height: 50px;
+				margin-top:5px;
+				text-align: right;
+				color:#68bb00;
+				font-size:16px;
+				font-weight: bold;
+			}
+			.bac .box .log_title .log_tle2 a:hover{
+				color:#5ba800;
+			}
+			
+			.bac .box .right .login_item1{
+				height: 40px;
+				line-height: 40px;
+				width:270px;
+				border: 1px solid #dedede;
+				margin-top:10px;
+			}
+			.bac .box .right .login_item2{
+				margin-bottom:10px;
+			}
+			.bac .box .right .all{
+				margin-left:40px;
+			}
+				.bac .box .right .login_item1 .label{
+					background:url(../img/emailpic.png) no-repeat center; 
+					width:40px;
+					height: 40px;
+					float:left;
+					border-right:1px solid #DEDEDE ;
+				}
+				.bac .box .right .login_item1 .mima{
+					background:url(../img/passwordpic.png) no-repeat center; 
+					width:40px;
+					height: 40px;
+					float:left;
+					border-right:1px solid #DEDEDE ;
+				}
+				.login_item3 input{
+					float: left;
+					margin-top:5px;	
+									
+				}
+				.login_item3 .auto {
+					font-size:14px;
+					color:#7b7b7b;
+					float: left;
+					padding-left: 5px;	
+					margin-bottom: 10px;	 
+				}
+				.login_item3 a{
+					color:#7d7d7d;
+					font-size: 14px;
+					font-weight: bold;
+					float: right;
+					display: block;
+					margin-right: 44px;
+				}
+					.login_item3 a:hover{
+						color:#6fbe2c;
+					}
+				.login_item4 input{
+					width:275px;
+					height: 40px;
+					background:#68bb00;
+					font-size: 20px;
+					color:#fff;
+					font-weight: bold;
+					margin-bottom: 25px;
+					border-radius: 3px;
+				}
+					.login_item4 input:hover{
+						background: #5ba800;
+					}
+				.otherAccounts{
+					color:#8f8f8f;
+					font-size: 14px;
+				}
+				.web li{
+					float: left;
+					width:70px;
+					height: 36px;
+					margin-right: 0px;
+					margin-top:10px; 
+				}
+				.web li.last{
+					width:85px;
+				}
+					.web li span{
+						float: left;
+						width:35px;
+						height: 35px;
+						border-radius: 20px;
+						background-image:url(../img/icon_login.png);
+						background-position-y:3px;						
+						background-color: #05a4e0;				
+					}
+						.web li a:hover span{
+							background-color:#0087e5;
+						}
+						.web li a:hover{					 
+							color:#5da700;
+							font-weight: bold;
+						}
+					.web li:nth-child(2) span{
+						background-position:2px -30px;	
+						background-color:#23c416;	
+					}
+						.web li:nth-child(2) a:hover span{
+							background-color:#00b10b;	
+						}					 
+					.web li:nth-child(3) span{
+						background-position:2px -65px;	
+						background-color: #f5273b;
+					}
+						.web li:nth-child(3) a:hover span{
+							background-color: #ea0a1f;
+						}
+					.web li:last-child span{
+						background-position:2px -98px;	
+						background-color:#00aaee;
+					}
+					.web li a{
+						display: block;
+						margin-left: 10px;
+						float: left;
+						line-height: 36px;
+						height: 36px;
+						margin-left:0px;
+					}
+/*background over*/
+ 

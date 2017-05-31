@@ -1,0 +1,103 @@
+ 
+{
+"recommend":[	
+			{"src":"img/recommend/01.jpg","tit":"周黑鸭&nbsp;彩包鸭脖（网购）215g/袋湖","price1":"21.8","price2":"23.8"},
+			{"src":"img/recommend/02.jpg","tit":"嘀嗒猫 每日坚果175g/盒","price1":"29.9","price2":"59.00"},
+			{"src":"img/recommend/03.jpg","tit":"海欣 鱼豆腐（蟹香味） 320g/袋","price1":"22.90","price2":"25.90"},
+			{"src":"img/recommend/04.jpg","tit":"Danisa 丹麦皇冠 曲奇饼干原味","price1":"49.90","price2":"63.90"},
+			{"src":"img/recommend/05.jpg","tit":"盼盼 梅尼耶干蛋糕（奶香） 1000g/箱","price1":"49.90","price2":"81.00"},
+			{"src":"img/recommend/06.jpg","tit":"Ocean Spray优鲜 鹊蔓越莓干1360g/袋","price1":"74.80","price2":"98.00"},
+			{"src":"img/recommend/07.jpg","tit":"盼盼 内松饼2.1kg/箱","price1":"49.90","price2":"63.00"},
+			{"src":"img/recommend/08.jpg","tit":"港荣 蓝莓果汁灌心蒸蛋糕 1kg/箱","price1":"39.90","price2":"46.00"}
+	],
+"banner_bottom":[
+				{"src":"img/banner_bottom/b1.jpg"},
+				{"src":"img/banner_bottom/b2.jpg"},
+				{"src":"img/banner_bottom/b3.jpg"},
+				{"src":"img/banner_bottom/b4.jpg"}
+				],
+"taste":[
+			{"src":"img/purchase/p1.jpg","tit":"RIO 双重冰柠味薄荷粮 12g/盒","price1":"36.90","price2":"45.80"},
+			{"src":"img/purchase/p2.jpg","tit":"奥林奥 巧克力威化巧克力（代可可）","price1":"21.60","price2":"36.80"},
+			{"src":"img/purchase/p3.jpg","tit":"港荣 清蛋糕 1kg/箱","price1":"49.00","price2":"52.60"},
+			{"src":"img/purchase/p4.jpg","tit":"雀巢 1+2原味速溶咖啡粉礼盒装","price1":"89.90","price2":"92.50"},
+			{"src":"img/taste/t5.jpg","tit":"新苗向日葵 夹心薄饼（蓝莓）","price1":"14.90","price2":"18.60"}
+		],
+"purchase":[
+			{"src":"img/purchase/p1.jpg","tit":"张君雅小妹妹进口混合装","price1":"36.90","price2":"45.80"},
+			{"src":"img/purchase/p2.jpg","tit":"黄族 手打麻薯糯米饼180g*3袋","price1":"21.90","price2":"33.80"},
+			{"src":"img/purchase/p3.jpg","tit":"三养 超辣鸡肉味拉面700g/袋","price1":"29.90","price2":"32.60"},
+			{"src":"img/purchase/p4.jpg","tit":"卫龙辣条豪华大礼包1448g 麻辣爽口","price1":"39.90","price2":"49.50"}		
+		   ],
+"cat":[
+			{"src":"img/cat/c1.jpg","tit":" 嘀嗒猫 每日坚果175g/盒","price1":"26.90","price2":"45.80"},
+			{"src":"img/cat/c2.jpg","tit":"嘀嗒猫 榴莲干30g/盒","price1":"41.90","price2":"93.80"},
+			{"src":"img/cat/c3.jpg","tit":"嘀嗒猫 甘栗仁80g/袋","price1":"19.90","price2":"22.60"},
+			{"src":"img/cat/c4.jpg","tit":"嘀嗒猫 蔓越莓西饼200g ","price1":"139.90","price2":"249.50"},	
+			{"src":"img/cat/c5.jpg","tit":"嘀嗒猫 猪肉脯（原味）200g/袋","price1":"56.90","price2":"85.80"},
+			{"src":"img/cat/c6.jpg","tit":"嘀嗒猫 碧根果208g/袋","price1":"21.90","price2":"33.80"},
+			{"src":"img/cat/c7.jpg","tit":"嘀嗒猫 茫果干100g/袋","price1":"49.90","price2":"92.60"},
+			{"src":"img/cat/c8.jpg","tit":"嘀嗒猫 脆冬枣115g/袋","price1":"39.90","price2":"79.50"}		  	  
+	  ],
+"adv":[
+		{"src":"img/adv/a1.jpg"},
+		{"src":"img/adv/a2.jpg"}	
+	],
+"first":[
+			{"src":"img/first/f1.jpg","tit":"丹夫 华夫饼(奶油味)168g","price1":"16.90","price2":"45.80"},
+			{"src":"img/first/f2.jpg","tit":"台湾零食 77牌 蜜兰诺松塔192g","price1":"51.60","price2":"76.80"},
+			{"src":"img/first/f3.jpg","tit":"友谊牌 Tipo鸡蛋牛奶味面包干300g","price1":"19.00","price2":"32.60"},
+			{"src":"img/first/f4.jpg","tit":"盼盼 手撕面包 1kg/箱","price1":"59.90","price2":"92.50"}
+		],
+"two":[
+			{"src":"img/first/f5.jpg","tit":"周黑鸭 彩包鸭翅（网购） 180g/袋","price1":"26.90","price2":"35.80"},
+			{"src":"img/first/f6.jpg","tit":"嘀嗒猫 猪肉脯（白芝麻味） 200g/袋","price1":"41.60","price2":"56.80"},
+			{"src":"img/first/f7.jpg","tit":"有友 泡椒凤爪 500g/袋 （散称）重庆","price1":"19.00","price2":"32.60"},
+			{"src":"img/first/f8.jpg","tit":"老四川 麻辣牛肉100g/袋 重庆特产 ","price1":"52.90","price2":"72.50"}
+		],
+"three":[	
+			{"src":"img/first/f9.jpg","tit":"海牌 烤海苔2g*8/包 ","price1":"18.90","price2":"41.80"},
+			{"src":"img/first/f10.jpg","tit":"老州山 野生烤鱿鱼丝220g/袋 ","price1":"53.60","price2":"96.80"},
+			{"src":"img/first/f11.jpg","tit":"劲仔 麻辣小鱼300g/盒 （15g*20包) ","price1":"19.00","price2":"22.60"},
+			{"src":"img/first/f12.jpg","tit":"鱼乡味 海苔脆片 16g/袋 ","price1":"49.90","price2":"62.50"}
+		],
+"four":[
+			{"src":"img/first/f13.jpg","tit":"大白兔 原味奶糖 227g","price1":"12.90","price2":"43.80"},
+			{"src":"img/first/f14.jpg","tit":"不二家 20支装果味棒棒糖","price1":"9.60","price2":"16.80"},
+			{"src":"img/first/f15.jpg","tit":"woogie 综合水果粮粒200g/灌 ","price1":"12.00","price2":"22.60"},
+			{"src":"img/first/f16.jpg","tit":"南国 特浓椰子糖200g/袋 海南特产","price1":"33.90","price2":"52.50"}
+		],
+"five":[
+			{"src":"img/first/f17.jpg","tit":"万多福 美国加州进口开心果经典无盐","price1":"62.90","price2":"73.80"},
+			{"src":"img/first/f18.jpg","tit":"陆哥 手剥松子500g/袋","price1":"59.60","price2":"86.80"},
+			{"src":"img/first/f19.jpg","tit":"嘀嗒猫 炭烧腰果188g/袋","price1":"62.00","price2":"92.60"},
+			{"src":"img/first/f20.jpg","tit":"嘀嗒猫 碧根果208g/袋","price1":"33.90","price2":"42.50"}
+		],
+"six":[
+			{"src":"img/first/f21.jpg","tit":"金晔 山楂条260g/袋","price1":"12.90","price2":"43.80"},
+			{"src":"img/first/f22.jpg","tit":"嘀嗒猫 草莓干100g/袋","price1":"9.60","price2":"16.80"},
+			{"src":"img/first/f23.jpg","tit":"齐云山 南酸枣糕300g","price1":"12.00","price2":"22.60"},
+			{"src":"img/first/f24.jpg","tit":"乐事多 蔓越莓干100g/袋 美国进口","price1":"33.90","price2":"52.50"}
+		],
+"seven":[
+			{"src":"img/first/f25.jpg","tit":"张君雅 日式休闲丸子 80g/袋 台湾","price1":"7.90","price2":"43.80"},
+			{"src":"img/first/f26.jpg","tit":"韩国进口零食品 九日 蜂蜜黄油薯片","price1":"19.60","price2":"36.80"},
+			{"src":"img/first/f27.jpg","tit":"卡乐美 鲜虾条（原味）110g","price1":"32.00","price2":"42.60"},
+			{"src":"img/first/f28.jpg","tit":"爱尚 咪咪虾条（虾味）720g/袋","price1":"33.90","price2":"62.50"}
+		],
+"eight":[
+			{"src":"img/first/f29.jpg","tit":"卫龙 豆干（香辣味） 250g/袋","price1":"8.90","price2":"13.80"},
+			{"src":"img/first/f30.jpg","tit":"有友 山椒竹笋120g/袋 重庆物产","price1":"3.60","price2":"5.80"},
+			{"src":"img/first/f31.jpg","tit":"沈师傅 鸡蛋干 100g 四川特产 ","price1":"9.00","price2":"12.60"},
+			{"src":"img/first/f32.jpg","tit":"卫龙 小小面筋（麻辣味） 390g/袋","price1":"13.90","price2":"22.50"}
+		],
+"nine":[
+			{"src":"img/first/f33.jpg","tit":"农协 蜂蜜柚子茶1kg","price1":"12.90","price2":"43.80"},
+			{"src":"img/first/f34.jpg","tit":"瑞士小姐 浓情巧克力冲饮粉283g/盒","price1":"9.60","price2":"16.80"},
+			{"src":"img/first/f35.jpg","tit":"宾格瑞 草莓味牛奶饮料200ml","price1":"12.00","price2":"22.60"},
+			{"src":"img/first/f36.jpg","tit":"瑞士小姐 牛奶巧克力 冲饮粉737g/盒","price1":"33.90","price2":"52.50"}
+		]	
+}
+
+
+ 

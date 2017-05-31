@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>猫诚食品——我的购物车</title>
+        <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="css/cart.css" /> 
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/cookie1.js"></script>             
+        <script type="text/javascript" src="js/server.js" ></script>
+        <script type="text/javascript" src="js/cart.js"></script>
+       	<script type="text/javascript" src="js/cart1.js"></script>
+    </head>
+    <body>
+         <!--
+        	最右边的 start
+       	-->      
+       <div class="cart_right">
+			<ul>
+				<li >
+					<div class="person">我的猫城				
+					</div>
+				</li>
+				<li>
+					<span>购</span><span>物</span><span>车</span><div class="gou count">0</div>
+				</li>
+				<li>
+					<div class="person">我的优惠卷				
+					</div>
+				</li>
+				<li>
+					<div class="person">我的收藏				
+					</div>
+				</li>
+				<li>
+					<div class="person">积分签到				
+					</div>
+				</li>
+				<li>
+					<div class="person">我的消息				
+					</div>
+				</li>
+				<li>
+					<div class="person">在线咨询				
+					</div>
+				</li>
+				<li class="index">
+					<div class="person">猫城首页				
+					</div>
+				</li>
+				<li class="last">
+					<div class="person">返回顶部				
+					</div>
+				</li>
+			</ul>
+		</div>      
+        <!--
+			最右边的over
+        -->
+        <!-- header top -->
+		<div class="header_top">
+			<div class="layout">
+				<div class="layout_left">
+					<a href="login.html"><img src="img/top-login.gif" /></a>
+					<a href="register.html"><img src="img/top-zc.gif" /></a>
+				</div>
+				<div class="layout_right">
+					<ul>
+						<li class="nav_one">
+							<a href="#"><i class="iconfont o">&#xe64c;</i> 	
+								 <span class="all">在线客服</span> 
+								 <i class="iconfont tw">&#xe695;</i>	
+								<i class="iconfont th">&#xe501;</i>
+							</a>
+							<div class="kefu">
+									<span class="kefu_time">工作时间</span>
+									<span>周一至周五：9：00~23:30</span>
+									<span>周六至周日：9：00~00:00</span>
+								</div>
+						</li>
+						<li class="nav_two">
+							<a href="#">
+								<i class="iconfont fo">&#xe603;</i>
+								<span class="all">关注我们</span>
+								<i class="iconfont tw" >&#xe695;</i>
+								<i class="iconfont th">&#xe501;</i>
+							</a>
+							<div class="guanzhu">
+								<img src="img/erweima.jpg"><span>订阅号</span>
+								<img src="img/erweima.jpg" class="two"><span class="fu">服务号</span>
+							</div>
+						</li>
+						<li class="nav_three">
+							<a href="#">
+								<i class="iconfont so">&#xe6f9;</i>
+								<span class="all">优惠劵激活</span>
+								<i class="iconfont tw">&#xe695;</i>
+							<i class="iconfont th">&#xe501;</i>
+							</a>
+							<div class="hui">
+								<span>兑换码</span><input type="text" class="dui">
+								<input type="button" value="提交兑换" class=" huan">
+							</div>
+						</li>
+						<li class="nav_four">
+							<a href="#">
+								<i class="iconfont to">&#xe60c;</i>
+								<a href="#"><span class="all">APP下载</span></a>
+								<i class="iconfont tw">&#xe695;</i>
+							</a>
+							<div class="app">
+								<img src="img/erweima2.jpg">
+								<span>扫描下载客户端</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	 <!-- header top over-->
+<!--table start-->
+	<div class="layout ca">
+		<img src="img/0.jpg">
+		<img src="img/order-01.png">
+	</div>
+	<div class="layout">
+		<h1 class="myCart">我的购物车</h1>
+	</div>
+	
+	<div class="layout ta">
+		<table>
+			<tr class="first">
+				<td>商品名称</td>
+				<td>商品单价</td>
+				<td>购买数量</td>
+				<td>金额小计</td>
+				<td>会员优惠</td>
+				<td>积分</td>
+				<td>库存</td>
+				<td>操作</td>
+			</tr>
+		</table>
+	</div>
+	<div class="layout tb">
+		<table>
+			<tr class="first two ">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>有货</td>
+				<td><a href="#">删除</a><a href="#">加入收藏夹</a></td>
+			</tr>
+		</table>
+	</div>
+<!--table over-->	
+	
+<!--empty space start-->
+	<div class="empty"></div>
+<!--empty space over-->	
+
+	<!--footer start-->
+	<div class="footer_top footer_public">
+			<ul>
+				<li class="first"><a href="#">关于我们</a></li>
+				<li><a href="#">猫诚食品介绍</a></li>
+				<li><a href="#">猫诚食品微博</a></li>
+				<li><a href="#">商务合作</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">新手指南</a></li>
+				<li><a href="#">会员介绍</a></li>
+				<li><a href="#">优惠劵使用</a></li>
+				<li><a href="#">评价商品</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">支付方式</a></li>
+				<li><a href="#">支付宝余额支付</a></li>
+				<li><a href="#">微信钱包支付</a></li>
+				<li><a href="#">网银在线支付</a></li>
+				<li><a href="#">联华OK卡支付</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">配送方式</a></li>
+				<li><a href="#">安全配送</a></li>
+				<li><a href="#">配送时间及费用</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">售后服务</a></li>
+				<li><a href="#">退换货流程</a></li>
+				<li><a href="#">退换货注意事项</a></li>
+			</ul>
+			<ul>
+				<li class="first"><a href="#">帮助中心</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">物流查询</a></li>
+			</ul>
+		</div>
+		<div class="footer_center footer_public">
+			<dl>
+				<dt></dt>
+				<dd>
+					<span class="front">全国5+1</span>
+					<span class="after">满80包邮</span>			
+				</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>
+					<span class="front">最高4倍积分</span>
+					<span class="after">下单抵货款</span>			
+				</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>
+					<span class="front">品质保障</span>
+					<span class="after">7天无理由退换货</span>			
+				</dd>
+			</dl>
+		</div>
+		<div class="footer_bottom">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">加入猫诚食品</a></li>
+				<li><a href="#">手机猫诚食品</a></li>
+			</ul>
+			<h6>Copyright&nbsp;@&nbsp;2009-2017&nbsp;morefood.com,All Rights Reserved上海猫诚电子商务股份有限公司&nbsp;版权所有&nbsp;沪ICP备09068257-7</h6>
+			<h6 class="last">食品流通许可证编号:JY1310&nbsp;1130035157&nbsp;酒类许可证:1406030114003051</h6>
+			<div>
+				<img src="img/biaoshi1125.gif"/>
+				<img src="img/logo123x40.jpg" />
+				<img src="img/icon.gif" />
+				<img src="img/picp_bg.png" />
+			</div>
+		</div>
+	<!--footer over-->
+	
+	
+	
+    </body>
+</html>
